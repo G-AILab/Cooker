@@ -17,4 +17,17 @@
 }
 ```
 ## Usage
-We provide the source code of Cooker. Our model implementation is based on keras, which allows the model to be trained by GPU.
+Here we provide an implementation of Cooker in Python, along with a minimal execution example (on the Cora dataset). The repository is organised as follows:
+- `input/` contains the necessary dataset files for Cora;
+- `model.py` contains the implementation of the Cooker pipeline and a random walk layer;
+- `utils.py` contains the necessary processing subroutines.
+- `main.py` puts all of the above together and may be used to execute a full training run on Cora.
+
+## Installation
++ Requirement
+    + `Python==3.6`
+    + `numpy==1.18.5`
+    + `pandas==1.0.4`
+    + `scikit-learn==0.23.1`
+    + `tensorflow==2.2.0`
+    + `networkx==2.4`
